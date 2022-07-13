@@ -1,0 +1,190 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.font {
+    font-family: 'Comfortaa', cursive;
+}
+
+a {
+    text-decoration: none
+}
+
+p {
+    margin: -10px;
+    padding: 0px;
+}
+
+.bandera {
+    color: #FF9933; 
+}
+
+.gus {
+    color: #3300FF; 
+}
+
+/* scrollbar */
+
+::-webkit-scrollbar {
+    width: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+    width: 10px;
+    background-color: gray; 
+    border-radius: 100px
+}
+
+/* font */
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+/* main */
+
+.header {
+    height: 100%;
+    width: 100%;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: #339933;
+    display: flex;
+    text-align: center;
+}
+
+.header-name {
+    color: white;
+    font-size: 40px;
+    margin: 13px 50px 0px 15px;
+}
+
+.logo {
+    height: 75px;
+    width: auto;
+    margin: 5px 5px 5px 15px;
+    border-radius: 100px;
+}
+
+.header__btn {
+    margin: 23px 15px 10px 25px;
+    color: white;
+    font-size: 23px;
+    height: auto;
+    width: 350px;
+    padding: 2px 2px 6px 2px;
+    background: none;
+    border-radius: 14px;
+    border: 3px solid #666666;
+}
+
+#zmina1:hover {
+    cursor: pointer;
+}
+
+#zmina2, #zmina3:hover {
+    cursor: wait;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.tops {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    border-radius: 15px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 75px;
+}
+
+.top1 {
+    position: relative;
+    bottom: 55px;
+}
+
+.stars-user {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.su__all {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.star_card {
+    height: 200px;
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 15px 10px 0px 10px;
+}
+
+.card-name {
+    color: black;
+    text-align: center;
+    font-size: 35px;
+}
+
+.fa-star {
+    font-size: 25px;
+}
+
+.stars {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: -5px;
+}
+
+.hide {
+    display: none;
+}
+
+.staropen {
+    background-color: #339933;
+    width: 350px;
+    padding: 0px 0px 8px 0px;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 15px;
+    border: none;
+}
+
+.staropen:hover {
+    cursor: pointer;
+}
